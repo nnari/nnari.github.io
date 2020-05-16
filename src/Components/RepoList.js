@@ -17,7 +17,10 @@ export const RepoList = () => {
         return repos.map(repo => {
             if (!repo.fork && repo.description !== null) {
                 return <Repo key={repo.id} repo={repo} />
+            } else {
+                return null;
             }
+            
         })
     }
 

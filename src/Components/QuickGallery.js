@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react'
 
 export const QuickGallery = () => {
     const [state, setState] = useState([]);
-    const [isLoading, setIsLoading] = (true);
+    const [isLoading, setIsLoading] = useState(true);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -17,19 +17,27 @@ export const QuickGallery = () => {
     const mapImages = state.map(link => {
         return (
             <div class="card">
-                <img class="card-img-top" src={link} style={{width: "100%"}} />
+                <img class="card-img-top" alt="Added by QuickGallery component" src={link} style={{ width: "100%" }} />
             </div>
         )
     })
 
+    const checkLoading = () => {
+        if (!isLoading) {
+            return (
+                <div class="container">
+                    <h1 class="text-white text-center pt-5">Some of my pictures</h1>
+                    <div class="card-columns pt-5">
+                        {mapImages}
+                    </div>
+                </div>
+            )
+        }
+    }
+
     return (
         <section class="gallery">
-        <div class="container">
-            <h1 class="text-white text-center pt-5">Some of my pictures</h1>
-            <div class="card-columns pt-5">
-                {mapImages}
-            </div>
-        </div>
+            {checkLoading()}
         </section>
     )
 }

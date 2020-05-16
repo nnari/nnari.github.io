@@ -28,7 +28,7 @@ export const Contact = () => {
                 
                 </div>
                 <div class="social d-flex justify-content-center">
-                    <a class="mx-2" href="https://twitter"><i class="fab fa-twitter"></i></a>
+                    <a class="mx-2" href="https://instagram.com/shotsbytatu"><i class="fab fa-instagram"></i></a>
                     <a class="mx-2" href="https://github.com/nnari"><i class="fab fa-github"></i></a>
                 </div>
             </div>

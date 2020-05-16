@@ -1,7 +1,10 @@
 import React from 'react'
+import moment from 'moment'
 
 
 export const ProjectsSection = () => {
+
+    
 
     return (
         <section class="projects-section bg-light" id="projects">
@@ -10,8 +13,8 @@ export const ProjectsSection = () => {
                     <div class="col-xl-8 col-lg-7"><img class="img-fluid mb-3 mb-lg-0" src="assets/img/selfie.jpg" alt="" /></div>
                     <div class="col-xl-4 col-lg-5">
                         <div class="featured-text text-center text-lg-left">
-                            <h4>Portrait photography</h4>
-                            <p class="text-black-50 mb-0">You can view some of the portraits I've taken in the gallery below.</p>
+                            <h4>Who am I?</h4>
+                            <p class="text-black-50 mb-0">Hi! I'm a {moment().diff('01-08-1997', 'years')} years old photographer & software developer from Hämeenlinna.</p>
                         </div>
                     </div>
                 </div>

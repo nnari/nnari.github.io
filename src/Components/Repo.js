@@ -9,7 +9,7 @@ export const Repo = ({ repo }) => {
                     <h5 class="card-title"><i class="fab fa-github mr-2"></i>{repo.name}</h5>
                     {/* <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6> */}
                     <p class="card-text">{repo.description}</p>
-                    <a href={repo.html_url} target="_blank" class="card-link">View on GitHub</a>
+                    <a href={repo.html_url} target="_blank" rel="noopener noreferrer" class="card-link">View on GitHub</a>
                 </div>
             </div>
         </div>

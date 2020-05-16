@@ -6,6 +6,7 @@ import { Contact } from './Components/Contact';
 import { Footer } from './Components/Footer';
 import { RepoList } from './Components/RepoList';
 import { QuickGallery } from './Components/QuickGallery';
+import { AboutSection } from './Components/AboutSection';
 
 const App = () => {
 
@@ -18,9 +19,9 @@ const App = () => {
         <NavBar />
         <MasterHeader />
         <RepoList />
-        {/* <AboutSection /> */}
         <ProjectsSection />
         <QuickGallery />
+        <AboutSection />
         {/* <Signup /> */}
         <Contact />
         <Footer />

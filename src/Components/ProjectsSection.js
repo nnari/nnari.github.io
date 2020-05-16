@@ -25,7 +25,7 @@ export const ProjectsSection = () => {
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-left">
                                     <h4 class="text-white">Night & street photography</h4>
-                                    <p class="mb-0 text-white-50"></p>
+                                    <p class="mb-0 text-white-50">Experimenting with portraits aswell. I'm available for fun photoshoots, just contact me!</p>
                                     <hr class="d-none d-lg-block mb-0 ml-0" />
                                 </div>
                             </div>
@@ -39,7 +39,8 @@ export const ProjectsSection = () => {
                             <div class="d-flex h-100">
                                 <div class="project-text w-100 my-auto text-center text-lg-right">
                                     <h4 class="text-white">Software development</h4>
-                                    <p class="mb-0 text-white-50"></p>
+                                    <p class="mb-0 text-white-50">JavaScript developer familiar with <b>ReactJS</b> and writing APIs with <b>Express</b>.
+                                    I also have a solid foundation in working with C#, MongoDB, MySQL and I'm generally very tech-savvy.</p>
                                     <hr class="d-none d-lg-block mb-0 mr-0" />
                                 </div>
                             </div>

@@ -30,6 +30,7 @@ export const Contact = () => {
                 <div class="social d-flex justify-content-center">
                     <a class="mx-2" href="https://instagram.com/shotsbytatu"><i class="fab fa-instagram"></i></a>
                     <a class="mx-2" href="https://github.com/nnari"><i class="fab fa-github"></i></a>
+                    <a class="mx-2" href="https://discord.gg/WRH4XNj"><i class="fab fa-discord"></i></a>
                 </div>
             </div>
         </section>

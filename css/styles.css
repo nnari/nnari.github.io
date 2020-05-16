@@ -10224,7 +10224,7 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  background: #000000;
 }
 .about-section p {
   margin-bottom: 5rem;
@@ -10320,7 +10320,6 @@ body {
 .gallery {
   background: #000000;
 }
-
 .gallery .card {
   background: rgba(0, 0, 0);
 }
